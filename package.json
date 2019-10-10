@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "First of all, you need to install the latest version of [Node.JS](https://nodejs.org/en/). We'll take advantage of **NPM**.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d website"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vershift/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vershift/website/issues"
+  },
+  "homepage": "https://Vershit.github.io/website",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
